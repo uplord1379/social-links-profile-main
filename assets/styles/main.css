@@ -1,0 +1,62 @@
+* {
+    text-align: center; 
+    justify-content: center;
+
+}
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/static/Inter-Regular.ttf");
+}
+.body{
+    background-color: hsl(0deg 0% 7.84%);
+}
+.main-content{
+    background-color: hsl(0deg 0% 12.16%);
+    color: beige;    
+    margin:20% 40% 20% 40%;   
+    padding: 2%;
+    border-radius: 4% / 3%;
+}
+img{
+    border-radius: 45% 45% 45% 45%;
+    height: 30%;
+    width: 30%;
+}
+.name{
+    font-family: "Inter-SemiBold";
+    font-size: 120%;
+    margin: 13% 0 5% 0;
+}
+.location{
+    color:hsl(72.16deg 54.97% 54.54%);
+    font-family: "Inter-SemiBold";
+    font-size: 70%;
+}
+.job{
+    font-size: 65%;
+    font-family: "Inter-Regular";
+    margin:10% 0 8% 0;
+}
+.socialmedia{
+    background-color: hsl(0deg 0% 20%);    
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 2% / 12%; 
+    font-family: "Inter-SemiBold";  
+    line-height: 160%;  
+}
+a{
+    text-decoration: none;
+    color: aliceblue;    
+    font-size: 70%;
+}
